@@ -1,0 +1,9 @@
+PyPDF2==3.0.1  # Used for PDF text extraction
+pytesseract==0.3.10  # For OCR text extraction
+pdf2image==1.16.3  # Converts PDF pages to images for OCR
+camelot-py==0.10.1  # (Alternative to Tabula for table extraction)
+rake-nltk==1.0.4  # For keyword extraction using RAKE
+textblob==0.17.1  # For sentiment analysis and text processing
+tabula-py==2.5.1  # For table extraction from PDFs
+sumy==0.11.0  # For text summarization (replacing gensim.summarization)
+nltk==3.9.1  # Required for RAKE and Sumy (tokenizer and other NLP tasks)
